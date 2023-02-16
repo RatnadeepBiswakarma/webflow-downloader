@@ -1,6 +1,6 @@
 {
   "name": "webflow-downloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Takes snapshot of webflow pages",
   "main": "index.js",
   "bin": {
