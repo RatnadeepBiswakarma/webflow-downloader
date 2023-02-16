@@ -40,22 +40,16 @@ You can import the package by requiring it
 ```javascript
 // import the package
 const downloadWebsite = require("webflow-downloader")
-
-// invoke the package and pass single URLs
 const urls = ["https://webflow.com", "https://webflow.com/about"]
+
+// invoke the package and pass URLs
 downloadWebsite(urls)
 
 // only downloads assets hosted on webflow by passing the assets domain to the function
-const urls = ["https://webflow.com", "https://webflow.com/about"]
 const assetDomains = ["https://assets.website-files.com"]
 downloadWebsite(urls, assetDomains)
 
 // customize download folder name by passing the folder name
-const urls = ["https://webflow.com", "https://webflow.com/about"]
-const assetDomains = [
-  "https://assets.website-files.com",
-  "https://assets-global.website-files.com",
-] // <= default
 const downloadFolder = "Website" // <= default
 downloadWebsite(urls, assetDomains, downloadFolder)
 ```
