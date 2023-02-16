@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Takes snapshot of webflow pages",
   "main": "index.js",
+  "bin": {
+    "webflow-downloader": "./cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
