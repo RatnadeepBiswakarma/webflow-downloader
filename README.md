@@ -29,11 +29,17 @@ const urls = ["https://webflow.com"] // add your URLs here
 
 ### Use it as a package in another project
 
+Added the package to your project
+
+```shell
+npm i webflow-downloader
+```
+
 You can import the package by requiring it
 
 ```javascript
 // import the package
-const downloadWebsite = require("./index.js")
+const downloadWebsite = require("webflow-downloader")
 
 // invoke the package and pass single URLs
 const urls = ["https://webflow.com", "https://webflow.com/about"]
